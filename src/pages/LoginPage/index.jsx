@@ -11,7 +11,7 @@ const Login = () => {
       <DashboardNav />
       <div className="min-h-full flex my-5">
         <div className="hidden lg:block relative w-0 basis-2/4 mx-auto md:mx-16 border border-primary rounded-xl">
-          <h2 className="text-white bg-primary rounded-full p-3 text-center my-5 mx-10 font-semibold">
+          <h2 className="text-white bg-primary rounded-full p-3 text-center my-5 mx-2 md:mx-10 font-semibold">
             Benefits of Saving Account
           </h2>
           <div className="text-primary flex">
@@ -50,7 +50,7 @@ const Login = () => {
             </p>
           </div>
         </div>
-        <div className="md:w-1/2 flex flex-col ml-auto justify-center py-5 p-6 sm:px-6 lg:flex-none lg:px-20 xl:px-24 bg-primary mx-10 rounded-xl">
+        <div className="md:w-1/2 flex flex-col justify-center py-5 p-6 sm:px-6 lg:flex-none lg:px-20 xl:px-24 bg-primary mx-2 md:mx-10 rounded-xl">
           <div className="mx-auto w-full px-16 py-5 m-5 bg-white rounded-xl md:w-full">
             <div>
               <h2 className="mt-6 text-3xl font-semibold text-gray-900">

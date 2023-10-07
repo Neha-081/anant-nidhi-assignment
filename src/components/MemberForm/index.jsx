@@ -8,7 +8,7 @@ export default function MemberForm() {
         <div className="hidden lg:block relative w-0 basis-2/4 mx-auto md:mx-10">
           <Slider />
         </div>
-        <div className="md:w-1/2 flex flex-col ml-auto justify-center py-10 p-6 sm:px-6 lg:flex-none lg:px-20 xl:px-24 bg-primary mx-10 rounded-xl">
+        <div className="md:w-1/2 flex flex-col justify-center py-10 p-6 sm:px-6 lg:flex-none lg:px-20 xl:px-24 bg-primary m-2 md:mx-10 rounded-xl">
           <div className="mx-auto w-full px-16 py-5 m-5 bg-white rounded-xl md:w-full">
             <div>
               <h2 className="mt-6 text-3xl font-semibold text-gray-900">
