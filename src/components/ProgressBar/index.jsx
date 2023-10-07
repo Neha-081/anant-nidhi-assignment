@@ -1,5 +1,6 @@
 import { CheckIcon, MinusCircleIcon, TrendingUpIcon } from '@heroicons/react/solid'
 
+// Define a timeline array with different events
 const timeline = [
   {
     id: 1,
@@ -30,14 +31,16 @@ const timeline = [
   },
 ]
 
+// Define a utility function for generating CSS class names
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+  // Define a functional component called ProgressBar
 export default function ProgessBar() {
   return (
     <div className="flow-root mt-5">
-      <ul role="list">
+      <ul>
         {timeline.map((event, eventIdx) => (
           <li key={event.id}>
             <div className="relative pb-8">

@@ -1,3 +1,4 @@
+// Define a functional component called DetailsForm
 export default function DetailsForm() {
   return (
     <form className="space-y-8 mx-4 my-2 lg:mx-20 p-3 md:px-20 rounded-lg text-left">

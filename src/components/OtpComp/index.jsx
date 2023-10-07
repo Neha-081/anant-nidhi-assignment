@@ -1,3 +1,4 @@
+  // Define a functional component called OTP
 export default function OtpComp() {
   return (
     <div class="absolute top-[120px] md:w-[50%] md:left-[25%] left-10 flex rounded-2xl flex-col justify-center overflow-hidden bg-gray-50">
@@ -61,6 +62,7 @@ export default function OtpComp() {
                   <div class="flex flex-row items-center justify-center text-center text-sm font-medium space-x-1 text-gray-500">
                     <p>Didn't recieve code?</p>{" "}
                     <a
+                      href="/#"
                       class="flex flex-row items-center text-blue-600"
                       target="_blank"
                       rel="noopener noreferrer"

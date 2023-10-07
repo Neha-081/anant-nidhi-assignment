@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import DashboardNav from "../../components/Navbar/DashboardNav";
 import OtpComp from "../../components/OtpComp";
 
+// Define the OTP component as a functional component
 const OTP = () => {
   return (
     <div>

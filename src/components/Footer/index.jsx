@@ -1,3 +1,4 @@
+// Define a navigation object with different sections and their respective links
 const navigation = {
     solutions: [
       { name: 'Marketing', href: '#' },
@@ -24,6 +25,8 @@ const navigation = {
       { name: 'Terms', href: '#' },
     ],
   }
+
+  // Define a functional component called Footer
   
   export default function Footer() {
     return (
@@ -37,7 +40,7 @@ const navigation = {
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
                   <h3 className="text-lg font-extrabold text-gray-400 tracking-wider uppercase">Company</h3>
-                  <ul role="list" className="mt-1 space-y-1">
+                  <ul className="mt-1 space-y-1">
                     {navigation.solutions.map((item) => (
                       <li key={item.name}>
                         <a href={item.href} className="text-base text-gray-300 hover:text-white">
@@ -49,7 +52,7 @@ const navigation = {
                 </div>
                 <div className="mt-12 md:mt-0">
                   <h3 className="text-lg font-extrabold text-gray-400 tracking-wider uppercase">Support</h3>
-                  <ul role="list" className="mt-1 space-y-1">
+                  <ul className="mt-1 space-y-1">
                     {navigation.support.map((item) => (
                       <li key={item.name}>
                         <a href={item.href} className="text-base text-gray-300 hover:text-white">
@@ -63,7 +66,7 @@ const navigation = {
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
                   <h3 className="text-lg font-extrabold text-gray-400 tracking-wider uppercase">Legal</h3>
-                  <ul role="list" className="mt-1 space-y-1">
+                  <ul className="mt-1 space-y-1">
                     {navigation.company.map((item) => (
                       <li key={item.name}>
                         <a href={item.href} className="text-base text-gray-300 hover:text-white">

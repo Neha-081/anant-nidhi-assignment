@@ -1,6 +1,7 @@
 import Slider from "../Slider";
 import Tabs from "../Tabs";
 
+  // Define a functional component called MemberForm
 export default function MemberForm() {
   return (
     <>

@@ -4,6 +4,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import logo from '../../assets/logo.png';
 
+// Define a navigation object with different sections and their respective links
 const navigation = [
   { name: 'Home', href: '/', current: false },
   { name: 'Login', href: '/login', current: false },
@@ -12,10 +13,12 @@ const navigation = [
   { name: 'Status', href: '/status', current: false },
 ]
 
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+  // Define a functional component called Nabvar
 export default function DashboardNav() {
   return (
     <Disclosure as="nav" className="bg-primary relative z-10">
@@ -89,7 +92,7 @@ export default function DashboardNav() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/#"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Your Profile
@@ -99,7 +102,7 @@ export default function DashboardNav() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/#"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Settings
@@ -109,7 +112,7 @@ export default function DashboardNav() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/#"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Sign out

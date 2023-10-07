@@ -1,3 +1,4 @@
+// tabs for navigation
 const tabs = [
     { name: 'E-KYC', href: '#', current: true },
     { name: 'Manual KYC', href: '#', current: false },
@@ -7,6 +8,8 @@ const tabs = [
     return classes.filter(Boolean).join(' ')
   }
   
+
+  // Define a functional component called Tabs  
   export default function Tabs() {
     return (
       <div>

@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 import DashboardNav from "../../components/Navbar/DashboardNav";
 import ProgessBar from "../../components/ProgressBar";
 
+// Define the Status Page component as a functional component
 const StatusPage = () => {
   return (
     <div>
@@ -112,7 +113,7 @@ const StatusPage = () => {
                     <div className="mt-1 flex items-center">
                       <img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl2ZGIvjqTdFw0SFm4NnQ-jbWWwIZJY0_Q7NtKXavYxVtV-0W_6uZ-nHHqMeliX2efc-U&usqp=CAU"
-                        alt="bg-image"
+                        alt="background"
                         className="h-[180px] w-auto rounded-xl"
                       />
                     </div>

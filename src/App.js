@@ -9,14 +9,15 @@ import OTP from "./pages/Otp";
 function App() {
   return (
     <div className="App font-sans">
+      {/* Set up React Router with different routes */}
       <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Dashboard />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/personal-details" element={<PersonalDetails />} />
-        <Route path="/status" element={<StatusPage />} />
-        <Route path="/otp" element={<OTP />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/personal-details" element={<PersonalDetails />} />
+          <Route path="/status" element={<StatusPage />} />
+          <Route path="/otp" element={<OTP />} />
+        </Routes>
       </BrowserRouter>
     </div>
   );

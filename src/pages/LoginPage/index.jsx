@@ -5,6 +5,8 @@ import React from "react";
 import Footer from "../../components/Footer";
 import DashboardNav from "../../components/Navbar/DashboardNav";
 
+
+// Define the Login component as a functional component
 const Login = () => {
   return (
     <div>
@@ -102,7 +104,7 @@ const Login = () => {
                   <div className="flex items-center justify-between">
                     <div className="text-sm">
                       <a
-                        href="#"
+                        href="/#"
                         className="font-medium text-primary hover:text-indigo-500"
                       >
                         Forgot your password?
