@@ -1,6 +1,6 @@
 export default function Slider() {
   return (
-    <div className="carousel m-10 h-full bg-blue-100 rounded-xl m-auto max-h-[400px]">
+    <div className="carousel m-10 h-full bg-blue-200 rounded-xl m-auto max-h-[400px]">
       <div id="slide1" className="carousel-item">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ApjX0Z2lY9sWTsn9nKsBLlW9gbVAoBsbo4Yzb0u1AxwXXPvfJWLZySbiEtyqHsQH8hI&usqp=CAU"
