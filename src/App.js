@@ -4,7 +4,7 @@ import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-sans">
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Dashboard />} />
