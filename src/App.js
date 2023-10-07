@@ -4,6 +4,7 @@ import Dashboard from "./pages/Dashboard";
 import Login from "./pages/LoginPage";
 import PersonalDetails from "./pages/PersonalDetails";
 import StatusPage from "./pages/StatusPage";
+import OTP from "./pages/Otp";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/personal-details" element={<PersonalDetails />} />
         <Route path="/status" element={<StatusPage />} />
+        <Route path="/otp" element={<OTP />} />
       </Routes>
       </BrowserRouter>
     </div>

@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "../../components/Footer";
-import StatusNav from "../../components/Navbar/StatusNav";
+import DashboardNav from "../../components/Navbar/DashboardNav";
 import ProgessBar from "../../components/ProgressBar";
 
 const StatusPage = () => {
   return (
     <div>
-      <StatusNav />
+      <DashboardNav />
       <div className="min-h-full flex my-5">
         <div className="hidden lg:block relative w-0 basis-2/4 mx-auto md:mx-16 border border-primary rounded-2xl">
           <h2 className="text-primary rounded-full p-3 text-3xl text-left my-5 mx-2 md:mx-10 font-semibold">
