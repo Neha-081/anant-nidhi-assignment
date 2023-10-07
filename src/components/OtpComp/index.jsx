@@ -1,7 +1,7 @@
   // Define a functional component called OTP
 export default function OtpComp() {
   return (
-    <div class="absolute top-[120px] md:w-[50%] md:left-[25%] left-10 flex rounded-2xl flex-col justify-center overflow-hidden bg-gray-50">
+    <div class="absolute top-[200px] md:w-[50%] md:left-[25%] left-16 flex rounded-2xl flex-col justify-center overflow-hidden bg-gray-50">
       <div class="relative bg-white px-6 pt-10 pb-9 shadow-xl mx-auto w-full rounded-2xl">
         <div class="mx-auto flex w-full max-w-md flex-col space-y-16">
           <div class="flex flex-col items-center justify-center text-center space-y-2">

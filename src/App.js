@@ -8,7 +8,7 @@ import OTP from "./pages/Otp";
 
 function App() {
   return (
-    <div className="App font-sans">
+    <div className="App font-mono">
       {/* Set up React Router with different routes */}
       <BrowserRouter>
         <Routes>

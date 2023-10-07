@@ -5,7 +5,7 @@ import Tabs from "../Tabs";
 export default function MemberForm() {
   return (
     <>
-      <div className="min-h-full flex my-12">
+      <div className="min-h-full flex my-3">
         <div className="hidden lg:block relative w-0 basis-2/4 mx-auto md:mx-10">
           <Slider />
         </div>
